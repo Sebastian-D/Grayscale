@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #64B058;
 }
 
 html {
@@ -18,8 +18,16 @@ html {
 }
 
 h1,
+h3 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000;
+}
+
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -45,7 +53,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #97D38D;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +62,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #1E6912;
 }
 
 .light {
@@ -89,7 +97,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #000; /* ändrad */
 }
 
 .navbar-custom .nav li a {
@@ -100,13 +108,15 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: rgba(136,136,136,1);
+    /* color: rgba(255,255,255,.8); */
     background-color: transparent;
 }
 
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
+    color: #000;
     background-color: transparent;
 }
 
@@ -119,7 +129,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: rgba(136,136,136,1);
 }
 
 @media(min-width:768px) {
@@ -136,7 +146,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #fff;
     }
 }
 
@@ -146,9 +156,10 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    color: #000;
+    /* background: url(../img/intro-bg.jpg) no-repeat bottom center scroll; */
+    background: url(../img/Botaniska100resOil.jpg) no-repeat bottom center scroll;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -188,10 +199,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -201,7 +212,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #000;
     background: rgba(255,255,255,.1);
 }
 
@@ -265,7 +276,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/alisaErika.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
