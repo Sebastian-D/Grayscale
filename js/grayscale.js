@@ -47,7 +47,7 @@ function init() {
         center: new google.maps.LatLng(59.852454,17.629119), // Uppsala
 
         // Disables the default Google Maps UI components
-        disableDefaultUI: true,
+        disableDefaultUI: false, //Changed
         scrollwheel: false,
         draggable: true, //Changed
 
