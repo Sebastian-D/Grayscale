@@ -41,7 +41,7 @@ function init() {
         zoom: 15,
 
         //Type of map
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        mapTypeId: google.maps.MapTypeId.HYBRID,
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(59.852454,17.629119), // Uppsala
