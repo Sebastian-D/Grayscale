@@ -40,6 +40,9 @@ function init() {
         // How zoomed in you want the map to start at (always required)
         zoom: 15,
 
+        //Type of map
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(59.852454,17.629119), // Uppsala
 
@@ -157,8 +160,8 @@ function init() {
             }, {
                 "weight": 1.2
             }]
-        }]
-    }; */
+        }] */
+    };
 
     // Get the HTML DOM element that will contain your map 
     // We are using a div with id="map" seen below in the <body>
