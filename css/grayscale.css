@@ -108,7 +108,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(136,136,136,.8); /* Background when hovering over navbar link */
+    color: rgba(136,136,136,.8); 
     background-color: transparent;
 }
 
