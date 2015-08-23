@@ -38,7 +38,7 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 14,
+        zoom: 15,
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(59.852454,17.629119), // Uppsala
@@ -50,7 +50,7 @@ function init() {
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
-        styles: [{
+        /* styles: [{
             "featureType": "water",
             "elementType": "geometry",
             "stylers": [{
@@ -158,7 +158,7 @@ function init() {
                 "weight": 1.2
             }]
         }]
-    };
+    }; */
 
     // Get the HTML DOM element that will contain your map 
     // We are using a div with id="map" seen below in the <body>
