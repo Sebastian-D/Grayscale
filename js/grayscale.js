@@ -176,6 +176,6 @@ function init() {
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        title: "Botaniska trädgården"
+        title: "Place of Woop Woop!"
     });
 }
