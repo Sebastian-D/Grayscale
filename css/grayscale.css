@@ -269,18 +269,19 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .brollop-section {
     width: 100%;
-    padding: 250px 0 250px;
+    padding: 100px 0 100px; */
     color: #fff;
     /* background: url(../img/alisaErika.jpg) no-repeat center center scroll; */
     background-color: #A1D890;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
 }
 
 #map {
@@ -292,10 +293,11 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
+        padding-bottom: 250px
     }
 
     .brollop-section {
-       /* padding: 100px 0; */
+    padding: 250px 0 250px;
     }
 
     #map {
