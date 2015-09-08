@@ -276,7 +276,6 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     /* background: url(../img/alisaErika.jpg) no-repeat center center scroll; */
-    background: #A1D890;
     background-color: #A1D890;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -296,11 +295,11 @@ a:focus {
     }
 
     .download-section {
-        padding: 100px 0;
+       /* padding: 100px 0; */
     }
 
     #map {
-        height: 400px;
+        height: 500px;
         margin-top: 250px;
     }
 }
