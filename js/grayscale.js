@@ -38,7 +38,7 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 16,
 
         //Type of map
         mapTypeId: google.maps.MapTypeId.HYBRID,
