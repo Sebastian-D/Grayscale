@@ -278,10 +278,10 @@ a:focus {
     color: #fff;
     /* background: url(../img/alisaErika.jpg) no-repeat center center scroll; */
     background-color: #A1D890;
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover; */
+    -o-background-size: cover;
 }
 
 #map {
