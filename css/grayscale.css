@@ -10,7 +10,7 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
     /* background-color: #64B058; */
-    background-color: #69C85A;
+    background-color: #2D941D;
 }
 
 html {
@@ -278,7 +278,7 @@ a:focus {
     padding: 100px 0 100px;
     /* background: url(../img/alisaErika.jpg) no-repeat center center scroll; */
     /* background-color: #A1D890; */
-    background-color: #2D941D;
+    background-color: #69C85A;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -355,7 +355,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    background-color: #2D941D;
+    background-color: #69C85A;
 }
 
 footer p {
