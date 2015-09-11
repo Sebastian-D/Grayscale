@@ -391,13 +391,11 @@ body {
     width: 50%;
     text-align: left;
     padding-right: 10%;
-    line-height: 125%;
 }
 .right_col {
     float: left;
     width: 50%;
     text-align: left;
-    line-height: 125%;
 }   
 .clear {
     clear: both;
