@@ -406,13 +406,13 @@ body {
     float: left;
     width: 33%;
     text-align: left;
-    padding-right: 10%;
+    padding-right: 6%;
 }
 .right_col {
     float: left;
     width: 33%;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 6%;
 }   
 .clear {
     clear: both;
