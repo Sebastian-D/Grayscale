@@ -283,7 +283,7 @@ a:focus {
     padding: 100px 0 100px;
     /* background: url(../img/alisaErika.jpg) no-repeat center center scroll; */
     /* background-color: #A1D890; */
-    background-color: #EEFDBD; /* bröllop sektion background */
+    background-color: #FDFDFC; /* bröllop sektion background */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -387,7 +387,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    background-color: #EEFDBD;
+    background-color: #FDFDFC;
 }
 
 footer p {
