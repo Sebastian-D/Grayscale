@@ -302,10 +302,8 @@ a:focus {
 }
 
 .picture-section2 {
-   /* width: 300px; these crop the image 
-    height: 500px; */
-    width: 400px;
-    height:438px;
+   /* width: 400px;
+    height:438px; */
     float: left;
     overflow:hidden;
 }
