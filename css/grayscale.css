@@ -301,8 +301,8 @@ a:focus {
 }
 
 .picture-section2 {
-    width: 300px;
-    height: 600px;
+    width: 33%;
+    height: 800px;
     overflow: hidden;
     float: left;
 }
@@ -430,6 +430,22 @@ body {
     text-align: left;
     padding-left: 6%;
 }   
+
+.left_brollop {
+    float: left;
+    width: 33%;
+    text-align: left;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.right_brollop {
+    float: left;
+    width: 33%;
+    text-align: left;
+    padding-right: 6%;
+}
+
 .clear {
     clear: both;
 }
