@@ -288,6 +288,7 @@ a:focus {
 
 .picture-section1 {
     width: 100%;
+    height: 200px;
     background: url(../img/alisaErika.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
