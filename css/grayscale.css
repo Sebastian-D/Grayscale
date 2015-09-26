@@ -11,7 +11,7 @@ body {
     color: #000;
     /* background-color: #64B058; */
     /* background-color: #2D941D; */
-    background-color: #F0F8FF;
+    background-color: #F8F8FF; /* This is the main background color */
 }
 
 html {
@@ -299,7 +299,7 @@ a:focus {
     }
 
     .brollop-section {
-    padding: 250px 0 250px;
+    padding: 100px 0 100px; /* Padding för bröllop sektionen */
     }
 
     #map {
