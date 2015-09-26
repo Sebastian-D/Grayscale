@@ -301,16 +301,16 @@ a:focus {
 }
 
 .picture-section2 {
-    width: 33%;
-    height: 800px;
+    width: 300px; /* these crop the image */
+    height: 600px;
     overflow: hidden;
     float: left;
 }
 
 .picture-section2 img {
-    width: 400px;
-    height: 600px;
-    margin: -75px 0 0 -100px;
+    width: 60%; /* these resize the image */
+    height: 50%;
+    margin: -75px 0 0 -100px; /* this moves the image inside the cropped area */
 }
 
 #map {
@@ -433,7 +433,7 @@ body {
 
 .left_brollop {
     float: left;
-    width: 33%;
+    width: 36%;
     text-align: left;
     padding-right: 6%;
     padding-left: 6%;
@@ -441,7 +441,7 @@ body {
 
 .right_brollop {
     float: left;
-    width: 33%;
+    width: 30%;
     text-align: left;
     padding-right: 6%;
 }
