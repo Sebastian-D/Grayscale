@@ -336,8 +336,8 @@ a:focus {
 .btn-default {
     width: 60px;
     padding: 20px;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #000;
+    color: #000;
     background-color: transparent;
 }
 
