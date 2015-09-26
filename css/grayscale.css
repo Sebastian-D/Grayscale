@@ -399,14 +399,15 @@ body {
 
 .left_col {
     float: left;
-    width: 25%;
+    width: 33%;
     text-align: left;
     padding-right: 10%;
 }
 .right_col {
     float: left;
-    width: 25%;
+    width: 33%;
     text-align: left;
+    padding-left: 10%;
 }   
 .clear {
     clear: both;
