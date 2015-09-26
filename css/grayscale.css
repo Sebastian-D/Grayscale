@@ -334,7 +334,8 @@ a:focus {
 }
 
 .btn-default {
-    width: 60px;
+    width: 200px;
+    margin: 40px auto;
     padding: 20px;
     border: 1px solid #000;
     color: #000;
