@@ -99,7 +99,8 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #000; /* ändrar länk  */
+    /*color: #000; */ /* ändrar länk  */
+    color: #FF00FF;
 }
 
 .navbar-custom .nav li a {
