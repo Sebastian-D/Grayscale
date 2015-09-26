@@ -334,6 +334,8 @@ a:focus {
 }
 
 .btn-default {
+    width: 60px;
+    height: 40px;
     border: 1px solid #42dca3;
     color: #42dca3;
     background-color: transparent;
