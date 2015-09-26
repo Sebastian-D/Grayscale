@@ -308,8 +308,8 @@ a:focus {
 }
 
 .picture-section2 img {
-    width: 80%; /* these resize the image */
-    height: 80%;
+    width: 100%; /* these resize the image */
+    height: 100%;
     margin: -75px 0 0 -100px; /* this moves the image inside the cropped area */
 }
 
