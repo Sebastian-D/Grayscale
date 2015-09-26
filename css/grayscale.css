@@ -148,7 +148,6 @@ a:focus {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #fff;
-        color: #F8F8FF;
     }
 }
 
@@ -281,6 +280,15 @@ a:focus {
     /* background: url(../img/alisaErika.jpg) no-repeat center center scroll; */
     /* background-color: #A1D890; */
     background-color: #69C85A;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.picture-section1 {
+    width: 100%;
+    background: url(../img/alisaErika.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
