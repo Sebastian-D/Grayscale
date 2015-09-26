@@ -11,7 +11,7 @@ body {
     color: #000;
     /* background-color: #64B058; */
     /* background-color: #2D941D; */
-    background-color: #F8F8FF; /* This is the main background color */
+    background-color: #FFFBF5; /* This is the main background color */
 }
 
 html {
@@ -366,7 +366,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    background-color: #69C85A;
+    background-color: #EEFDBD;
 }
 
 footer p {
