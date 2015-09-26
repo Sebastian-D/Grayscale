@@ -404,7 +404,7 @@ body {
     padding-right: 10%;
 }
 .right_col {
-    float: right;
+    float: left;
     width: 25%;
     text-align: left;
 }   
