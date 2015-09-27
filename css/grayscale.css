@@ -10,6 +10,8 @@ body {
     /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-family: 'Fragment Core Roman';
     color: #000;
+    font-weight: 300;
+    line-height: 1.2;
     /* background-color: #64B058; */
     /* background-color: #2D941D; */
     background-color: #FFFBF5; /* This is the main background color */
