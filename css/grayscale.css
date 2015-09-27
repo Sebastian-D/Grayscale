@@ -8,9 +8,9 @@ body {
     width: 100%;
     height: 100%;
     /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
-    font-family: 'Fragment Core Roman';
+    font-family: 'Josefin Slab', serif;
     color: #000;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.2;
     /* background-color: #64B058; */
     /* background-color: #2D941D; */
@@ -27,7 +27,7 @@ h3 {
     margin: 0 0 35px;
     text-transform: uppercase;
     /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
-    font-family: 'Fragment Core Roman';
+    font-family: 'Josefin Slab', serif;
     font-weight: 700;
     letter-spacing: 1px;
     color: #000;
@@ -82,7 +82,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
-    font-family: 'Fragment Core Roman';
+    font-family: 'Josefin Slab', serif;
     background-color: #000;
 }
 
@@ -342,7 +342,7 @@ a:focus {
     border-radius: 0;
     text-transform: uppercase;
     /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
-    font-family: 'Fragment Core Roman';
+    font-family: 'Josefin Slab', serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
