@@ -307,6 +307,7 @@ a:focus {
     width: 33%;
     height: auto;
     float: left;
+    text-align: left;
     /* overflow:hidden; */
 }
 
