@@ -306,7 +306,7 @@ a:focus {
 .picture-section2 {
    /* width: 400px;
     height:438px; */
-    float: left;
+    float: right;
     overflow:hidden;
 }
 
