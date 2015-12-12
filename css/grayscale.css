@@ -321,8 +321,8 @@ a:focus {
     /* overflow:hidden; */
 }
 
-.picture-section1 img {
-    width: 33%;
+.picture-section1 {
+    width: 50%;
     height: auto;
     float: left;
     text-align: left;
@@ -450,8 +450,7 @@ body {
 
 .right_col2 {
     float: left;
-    width: 33%;
-    text-align: left;
+    width: 50%;
     padding-left: 6%;
 }   
 
