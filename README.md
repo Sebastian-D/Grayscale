@@ -1,3 +1,3 @@
-# [Go to wedding homepage (Under construction)](http://sebastian-d.github.io/Grayscale/) 
+# [Go to wedding homepage (Under construction)](http://alisasebastian.se) 
 
 Sebastian borde inte ändra inriktning till webdesigner =)
