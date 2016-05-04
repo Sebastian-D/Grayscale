@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sebbe och Alisa 2016</title>
+    <script type="text/javascript" src="instafeed.min.js"></script>
+    <style media="screen">
+      .ghost-btn-container {
+        text-align: center;
+      }
+      .ghost-btn {
+        font-family: "Arial";
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid #3f6fa0;
+        height: 36px;
+        line-height: 36px;
+        color: #3f6fa0;
+        -webkit-border-radius: 5px;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 5px;
+        -moz-background-clip: padding;
+        border-radius: 5px;
+        background-clip: padding-box;
+        font-size: 1em;
+        padding: .5em 1.5em;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+        background: #fff;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        cursor: pointer;
+        zoom: 1;
+        -webkit-backface-visibility: hidden;
+        position: relative;
+      }
+      .ghost-btn:hover {
+        -webkit-transition: 0.2s ease;
+        -moz-transition: 0.2s ease;
+        -o-transition: 0.2s ease;
+        transition: 0.2s ease;
+        background-color: #3f6fa0;
+        color: #fff;
+      }
+      .ghost-btn:focus {
+        outline: none;
+      }
+      .item {
+        display: inline-block;
+        width: 30%;
+      }
+      #instafeed {
+        max-width: 999px;
+      	display: flex;
+      	flex-direction: row;
+      	flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="instafeed"></div>
+
+    <div class="ghost-btn-container">
+      <a id="load-more" class="ghost-btn">LOAD MORE</a>
+    </div>
+
+    <script type="text/javascript">
+      var loadButton = document.getElementById('load-more');
+      var feed = new Instafeed({
+        get: "tagged",
+        tagName: "pants",
+        resolution: "low_resolution",
+        // resolution: "standard_resolution",
+        links: true,
+        limit: 9,
+        accessToken: "952389.745c638.8db95b408a8c4e5dbcc4365d1d062c8b",
+        template: '<div class="item"><a href="{{link}}"><img src="{{image}}" /></a><p>{{caption}}</p></div>',
+        after: function() {
+
+          // disable button if no more results to load
+          if (!this.hasNext())
+            loadButton.setAttribute('disabled', 'disabled');
+          },
+      });
+
+      // bind the load more button
+      loadButton.addEventListener('click', function() {
+        feed.next();
+      });
+
+      // Init
+      feed.run();
+    </script>
+  </body>
+</html>
