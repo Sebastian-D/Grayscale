@@ -1,3 +1,1 @@
-# [Go to wedding homepage (Under construction)](http://sebastian-d.github.io/Grayscale/) 
-
-Sebastian borde inte ändra inriktning till webdesigner =)
+The wedding turned out fabulously despite a bout of bad weather :). The website was _instrumental_ in it's success I am sure! ;)
