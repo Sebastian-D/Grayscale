@@ -48,20 +48,20 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 1.6;
     }
 }
 
 a {
-    color: #97D38D;
+    /* color: #97D38D; */
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -293,10 +293,20 @@ a:focus {
     -o-background-size: cover;
 }
 
-.picture-section1 {
+.picture-section-bottom {
+    width: 100%;
+    height: 350px;
+    background: url(../img/04_spex_0011.JPG) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.picture-section-top {
     width: 100%;
     height: 400px;
-    background: url(../img/alisaErika.jpg) no-repeat center center scroll;
+    background: url(../img/AlisaBrudar.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -304,16 +314,19 @@ a:focus {
 }
 
 .picture-section2 {
-   /* width: 400px;
-    height:438px; */
+    width: 33%;
+    height: auto;
     float: left;
-    overflow:hidden;
+    text-align: left;
+    /* overflow:hidden; */
 }
 
-/*.picture-section2 img {
-    width: 100%;    
-    height: 100%;
-    margin: 0 0 0 0; 
+.picture-section1 {
+    width: 40%;
+    height: auto;
+    float: left;
+    text-align: left;
+    /* overflow:hidden; */
 }*/
 
 #map {
@@ -333,7 +346,7 @@ a:focus {
     }
 
     #map {
-        height: 500px;
+        height: 400px;
        /* margin-top: 250px; */
     }
 }
@@ -432,6 +445,12 @@ body {
     float: left;
     width: 33%;
     text-align: left;
+    padding-left: 6%;
+}   
+
+.right_col2 {
+    float: left;
+    width: 60%;
     padding-left: 6%;
 }   
 
